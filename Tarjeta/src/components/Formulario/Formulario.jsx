@@ -67,7 +67,7 @@ function Formulario({ onDatosSubmit }) {
           />
         </div>
         <button type="submit" className={styles.submitButton}>
-          Generar tarjeta de presentación
+          Generar
         </button>
       </form>
     </div>
