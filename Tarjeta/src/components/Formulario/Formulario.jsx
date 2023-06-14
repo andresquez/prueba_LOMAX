@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types'; // Importa PropTypes
-import styles from './Formulario.module.css'; // Importa el archivo CSS
+import PropTypes from 'prop-types';
+import styles from './Formulario.module.css';
 
 function Formulario({ onDatosSubmit }) {
   const [datos, setDatos] = useState({
@@ -16,7 +16,7 @@ function Formulario({ onDatosSubmit }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onDatosSubmit(datos); // Llama a la función onDatosSubmit con los datos como argumento
+    onDatosSubmit(datos);
   };
 
   return (
@@ -30,6 +30,7 @@ function Formulario({ onDatosSubmit }) {
             name="nombre"
             value={datos.nombre}
             onChange={handleInputChange}
+            maxLength={30}
             required
           />
         </div>
@@ -41,6 +42,7 @@ function Formulario({ onDatosSubmit }) {
             name="puesto"
             value={datos.puesto}
             onChange={handleInputChange}
+            maxLength={30}
             required
           />
         </div>
@@ -52,6 +54,7 @@ function Formulario({ onDatosSubmit }) {
             name="telefono"
             value={datos.telefono}
             onChange={handleInputChange}
+            maxLength={10}
             required
           />
         </div>
@@ -63,6 +66,7 @@ function Formulario({ onDatosSubmit }) {
             name="correo"
             value={datos.correo}
             onChange={handleInputChange}
+            maxLength={30}
             required
           />
         </div>
@@ -75,7 +79,7 @@ function Formulario({ onDatosSubmit }) {
 }
 
 Formulario.propTypes = {
-  onDatosSubmit: PropTypes.func.isRequired, // Agrega la validación para onDatosSubmit
+  onDatosSubmit: PropTypes.func.isRequired,
 };
 
 export default Formulario;

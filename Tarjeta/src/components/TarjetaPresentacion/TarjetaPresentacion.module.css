@@ -9,20 +9,24 @@
     height: 175px;
     width: 400px;
     gap: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agrega el box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease;
     margin-top: 10px;
+    background-image: url("../tarjeta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
   }
   
   .tarjetaContainer:hover {
-    transform: scale(1.1); /* Aumenta la escala en 10% */
+    transform: scale(1.1);
   }
 
   .logoContainer {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
   }
   
   .logo {
