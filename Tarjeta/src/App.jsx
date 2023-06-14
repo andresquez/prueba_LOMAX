@@ -12,7 +12,9 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <h1>Generador de Tarjetas</h1>
+      <div className={styles.header}>
+        <h1>Generador de Tarjetas</h1>
+      </div>
       <Formulario onDatosSubmit={handleDatosSubmit} />
       {tarjetaDatos && <TarjetaPresentacion datos={tarjetaDatos} />}
     </div>
