@@ -10,18 +10,16 @@ asd
 
 ## Instrucciones de uso:
 
-Para probar diferentes puntos solamente hay que modificar los valores de las variables p1 - p4, en las líneas 33- 36.
+Para probar disadkjfbjkasdfntos solamente hay que modificar los valores de las variables p1 - p4, en las líneas 33- 36.
 
-# Pino
+# Piksadbjfno
 
-## Instrucciones de uso:
+## Iasdfknstruccionkbsadkbf de uso:
+kjsabdf
 
-Para probar diferentes tamaños del pino solo se cambia el parámetro de la funcion en la línea 18.
+# Genksjabdferador de Tarjetas
 
-
-# Generador de Tarjetas
-
->  Publicado en [Netlify][netlify] 
+>  Publiskdjbfcado en [Netlify][netlify] 
 
 
 ## Manual para correr:
