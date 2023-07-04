@@ -1,6 +1,11 @@
 # Prueba LOMAX
 Prueba técnica básica Desarrollo Web
-
+changes to be checked in the pull request
+aa
+a
+a
+asd
+asd
 # Cuadrado
 
 ## Instrucciones de uso:
